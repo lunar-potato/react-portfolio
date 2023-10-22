@@ -3,7 +3,7 @@ import NavLink from "./NavLink";
 
 const MenuOverlay = ({ links }) => {
   return (
-    <ul className="flex flex-col items-center py-4">
+    <ul className="flex flex-col items-center py-4 bg-[#181926]">
       {links.map((link, index) => (
         <li key={index}>
           <NavLink href={link.path} title={link.title} />
