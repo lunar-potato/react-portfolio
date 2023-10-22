@@ -10,13 +10,19 @@ const HeroSection = () => {
             Hello, I'm Gwy
           </h1>
           <p className="text-[#b8c0e0] text-lg lg:text-xl mb-6">
-            I'm a front-end developer that codes in bursts of energy.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            I'm a front-end developer that codes in bursts of energy. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
           </p>
           <div>
-            <button className="text-[#7dc4e4] px-6 py-3 rounded-full mr-4 bg-[#363a4f] hover:bg-[#494d64]">Contact Me</button>
-            <button className="text-[#7dc4e4] px-6 py-3 rounded-full my-2 bg-[#363a4f] hover:bg-[#494d64]">Download CV</button>
+            <button className="text-[#7dc4e4] px-6 py-3 rounded-full mr-4 bg-[#363a4f] hover:bg-[#494d64]">
+              Contact Me
+            </button>
+            <button className="text-[#7dc4e4] px-6 py-3 rounded-full my-2 bg-[#363a4f] hover:bg-[#494d64]">
+              Download CV
+            </button>
           </div>
         </div>
 
