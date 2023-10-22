@@ -9,12 +9,15 @@ const HeroSection = () => {
           <h1 className="inline-block mb-4 text-4xl font-extrabold text-transparent bg-gradient-to-r from-[#c6a0f6] via-[#8bd5ca] to-indigo-400 bg-clip-text lg:text-6xl">
             Hello, I'm Gwy
           </h1>
-          <p className="text-[#b8c0e0] text-lg lg:text-xl mb-6">
-            I'm a front-end developer that codes in bursts of energy. Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
+          <p className="mb-6 text-lg lg:text-xl text-[#cad3f5]">
+            Well, hello there! I'm a front-end developer that codes in bursts of
+            energy. I <span style={{ color: "#a6da95" }}> design</span>,{" "}
+            <span style={{ color: "#7dc4e4" }}> develop</span>,
+            <span style={{ color: "#f5bde6" }}> sing</span>,{" "}
+            <span style={{ color: "#ee99a0" }}> game</span>, and{" "}
+            <span style={{ color: "#c6a0f6" }}> paint</span>! I do have a lot of
+            hobbies but I am passionate about improving the lives of others by
+            developing great user-friendly applications.
           </p>
           <div>
             <button className="text-[#7dc4e4] px-6 py-3 rounded-full mr-4 bg-[#363a4f] hover:bg-[#494d64]">
