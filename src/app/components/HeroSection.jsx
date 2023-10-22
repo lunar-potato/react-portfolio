@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section>
+    <section className="my-16 lg:py-16">
       <div className="grid grid-cols-1 lg:grid-cols-12">
         <div className="col-span-7 place-self-center">
           <h1 className="inline-block mb-4 text-4xl font-extrabold text-transparent bg-gradient-to-r from-[#c6a0f6] via-[#8bd5ca] to-indigo-400 bg-clip-text lg:text-6xl">
@@ -16,7 +16,7 @@ const HeroSection = () => {
           </p>
           <div>
             <button className="text-[#7dc4e4] px-6 py-3 rounded-full mr-4 bg-[#363a4f] hover:bg-[#494d64]">Contact Me</button>
-            <button className="text-[#7dc4e4] px-6 py-3 rounded-full bg-[#363a4f] hover:bg-[#494d64]">Download CV</button>
+            <button className="text-[#7dc4e4] px-6 py-3 rounded-full my-2 bg-[#363a4f] hover:bg-[#494d64]">Download CV</button>
           </div>
         </div>
 
