@@ -10,11 +10,11 @@ const HeroSection = () => {
             Hello, I'm Gwy
           </h1>
           <p className="mb-6 text-lg lg:text-xl text-[#cad3f5]">
-            Well, hello there! I'm a front-end developer that codes in bursts of
-            energy. I <span style={{ color: "#a6da95" }}> design</span>,{" "}
+            Well, hello there! Welcome to my portfolio! I'm a front-end developer that codes in bursts of
+            energy. I <span style={{ color: "#a6da95" }}> design</span>,
             <span style={{ color: "#7dc4e4" }}> develop</span>,
-            <span style={{ color: "#f5bde6" }}> sing</span>,{" "}
-            <span style={{ color: "#ee99a0" }}> game</span>, and{" "}
+            <span style={{ color: "#f5bde6" }}> sing</span>,
+            <span style={{ color: "#ee99a0" }}> game</span>, and
             <span style={{ color: "#c6a0f6" }}> paint</span>! I do have a lot of
             hobbies but I am passionate about improving the lives of others by
             developing great user-friendly applications.
