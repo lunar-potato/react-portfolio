@@ -45,6 +45,7 @@ const AboutMe = () => {
       <div className="items-center gap-8 px-4 py-8 md:grid md:grid-cols-2 xl:gap-16 sm:py-16 xl:px-16">
         <Image
           src="/images/about-stars.jpg"
+          alt="Cute pixel purple galaxy with stars."
           width={500}
           height={500}
           className="rounded-lg"
@@ -53,29 +54,29 @@ const AboutMe = () => {
           <h2 className="mb-2 text-4xl font-bold text-[#c6a0f6]">About Me</h2>
           <hr className="mb-4"></hr>
           <p className="text-base lg:text-lg">
-            Currently on a 16-week intensive course in Front-End Development in University of Birmingham.
-            I'm a passionate developer and I love building applications which provides great user experience
-            and also enjoying learning new technologies to improve applications further. Expanding my knowledge
-            to solve real-world problems and provide better user-friendly websites.
+            Currently on a 16-week intensive course in Front-End Development in
+            University of Birmingham. I&apos;m a passionate developer and I love
+            building applications which provides great user experience and also
+            enjoying learning new technologies to improve applications further.
+            Expanding my knowledge to solve real-world problems and provide
+            better user-friendly websites.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <AboutTab
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
             >
-              {""}
-              Skills{""}
+              Skills
             </AboutTab>
             <AboutTab
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
             >
-              {""}
-              Education{""}
+              Education
             </AboutTab>
           </div>
           <div className="mt-2">
-          {TabInformation.find((t) => t.id === tab).content}
+            {TabInformation.find((t) => t.id === tab).content}
           </div>
         </div>
       </div>
