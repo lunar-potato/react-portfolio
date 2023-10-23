@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import React, { useState } from "react";
 import NavLink from "./NavLink";
 import MenuOverlay from "./OverlayMenu";
@@ -30,7 +31,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl font-semibold text-[#b7bdf8] md:text-5xl"
         >
-          LOGO
+          <Image src="/images/Luna.png" width={70} height={70}/>
         </Link>
         <div className="block mobile-menu md:hidden">
           {!navbarOpen ? (
