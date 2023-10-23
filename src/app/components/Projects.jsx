@@ -26,7 +26,7 @@ const projectInformation = [
   {
     id: 3,
     title: "Gamma Movies",
-    description: "It's a movie category list.",
+    description: "A movie category list which allows bookmarks.",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/lunar-potato/gamma-movies",
@@ -44,7 +44,7 @@ const projectInformation = [
   {
     id: 5,
     title: "Password Generator",
-    description: "Description",
+    description: "A password generator website which generates passwords of at least 10 characters long.",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/lunar-potato/password-generator",
@@ -98,10 +98,10 @@ const Projects = () => {
 
   return (
     <section id="projects">
-      <h2 className="mt-4 mb-8 text-4xl font-bold text-center text-white md:mb-12">
+      <h2 className="mt-4 mb-8 text-4xl font-bold text-center text-[#7dc4e4] md:mb-12">
         My Projects
       </h2>
-      <div className="flex flex-row items-center justify-center gap-2 py-6 text-white">
+      <div className="flex flex-row items-center justify-center gap-2 py-6 text-[#8aadf4]">
         <ProjectTag
           onClick={handleTagChange}
           name="All"
