@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { Butterfly_Kids } from "next/font/google";
 
 const HeroSection = () => {
   return (
@@ -10,20 +12,21 @@ const HeroSection = () => {
             Hello, I&apos;m Gwy
           </h1>
           <p className="mb-6 text-lg lg:text-xl text-[#cad3f5]">
-            Well, hello there! Welcome to my portfolio! I&apos;m a front-end developer that codes in bursts of
-            energy. I <span style={{ color: "#a6da95" }}> design&apos;</span>,
-            <span style={{ color: "#7dc4e4" }}> develop&apos;</span>,
-            <span style={{ color: "#f5bde6" }}> sing&apos;</span>,
-            <span style={{ color: "#ee99a0" }}> game&apos;</span>, and
-            <span style={{ color: "#c6a0f6" }}> paint&apos;</span>! I do have a lot of
+            Well, hello there! Welcome to my portfolio! I&apos;m a front-end
+            developer that codes in bursts of energy. I{" "}
+            <span style={{ color: "#a6da95" }}> design</span>,
+            <span style={{ color: "#7dc4e4" }}> develop</span>,
+            <span style={{ color: "#f5bde6" }}> sing</span>,
+            <span style={{ color: "#ee99a0" }}> game</span>, and
+            <span style={{ color: "#c6a0f6" }}> paint</span>! I do have a lot of
             hobbies but I am passionate about improving the lives of others by
             developing great user-friendly applications.
           </p>
           <div>
-            <button className="text-[#7dc4e4] px-6 py-3 rounded-full mr-4 bg-[#363a4f] hover:bg-[#494d64]">
-              Contact Me
-            </button>
-            <button className="text-[#7dc4e4] px-6 py-3 rounded-full my-2 bg-[#363a4f] hover.bg-[#494d64]">
+            <Link className="text-[#7dc4e4] px-6 py-3 rounded-full mr-4 bg-[#363a4f] hover:bg-[#494d64]" href="/contact">
+            Contact Me
+            </Link>
+            <button className="text-[#7dc4e4] px-6 py-3 rounded-full my-2 bg-[#363a4f] hover:bg-[#494d64]">
               Download CV
             </button>
           </div>

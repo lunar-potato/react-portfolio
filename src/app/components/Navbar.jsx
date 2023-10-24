@@ -31,7 +31,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl font-semibold text-[#b7bdf8] md:text-5xl"
         >
-          <Image src="/images/Luna.png" width={70} height={70} alt="Sukiluna logo"/>
+          <Image src="/images/Luna-star.png" width={70} height={70} alt="Sukiluna logo"/>
         </Link>
         <div className="block mobile-menu md:hidden">
           {!navbarOpen ? (

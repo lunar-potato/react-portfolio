@@ -15,7 +15,8 @@ const TabInformation = [
         <li className="text-[#8bd5ca]">TailwindCSS</li>
         <li className="text-[#eed49f]">JavaScript</li>
         <li className="text-[#91d7e3]">React</li>
-        <li className="text-[#cad3f56]">NextJS</li>
+        <li>NextJS</li>
+        <li>C#</li>
       </ul>
     ),
   },
