@@ -45,16 +45,16 @@ const ContactSection = () => {
           Let&apos;s Connect
         </h5>
         <p className="text-[#cad3f5] mb-4 max-w-md">
-        I&apos;m presently exploring new career prospects, and my email is readily accessible. Whether you have inquiries or simply want to send a greeting, I&apos;ll do my utmost to respond promptly!
+        I&apos;m presently exploring new career prospects, and my email is readily accessible. Whether you have inquiries or simply want to send a greeting, I&apos;ll do my utmost to respond promptly! Feel free to email me at <span className="text-[#91d7e3] font-bold"> gwy@sukiluna.me</span> !
         </p>
         <div className="flex flex-row gap-2 socials">
-          <Link href="github.com">
+          <Link href="https://github.com/lunar-potato">
             <GithubIcon className="text-[#eed49f]"></GithubIcon>
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/gwyneth-bautista-284053257/">
             <LinkedinIcon className="text-[#eed49f]"></LinkedinIcon>
           </Link>
-          <Link href="linkedin.com">
+          <Link href="mailto:gwy@sukiluna.me">
             <Mail className="text-[#eed49f]"></Mail>
           </Link>
         </div>
