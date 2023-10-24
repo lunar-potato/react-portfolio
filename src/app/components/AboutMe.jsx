@@ -42,7 +42,7 @@ const AboutMe = () => {
   };
 
   return (
-    <section className="text-[#b8c0e0]">
+    <section className="text-[#b8c0e0]" id="about">
       <div className="items-center gap-8 px-4 py-8 md:grid md:grid-cols-2 xl:gap-16 sm:py-16 xl:px-16">
         <Image
           src="/images/about-stars.jpg"
