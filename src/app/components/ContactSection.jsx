@@ -39,7 +39,6 @@ const ContactSection = () => {
       id="contact"
       className="relative grid gap-4 py-24 my-12 md:grid-cols-2 md:my-12"
     >
-       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
         <h5 className="my-2 text-xl font-bold text-[#f5bde6]">
           Let&apos;s Connect
@@ -114,7 +113,7 @@ const ContactSection = () => {
             </div>
             <button
               type="submit"
-              className="bg-primary-500 hover:bg-primary-600 text-[#eed49f] font-medium py-2.5 px-5 rounded-lg w-full"
+              className="bg-[#1e2030] hover:bg-[#363a4f] text-[#eed49f] font-medium py-2.5 px-5 rounded-lg w-full"
             >
               Send Message
             </button>
