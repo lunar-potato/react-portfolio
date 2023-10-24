@@ -31,6 +31,7 @@ const ContactSection = () => {
     if (response.status === 200) {
       console.log("Message Sent!");
       setEmailSubmitted(true);
+      console.log("Message sent");
     }
   };
 
