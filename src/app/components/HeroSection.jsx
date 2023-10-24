@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Butterfly_Kids } from "next/font/google";
 
 const HeroSection = () => {
   return (
@@ -13,7 +12,7 @@ const HeroSection = () => {
           </h1>
           <p className="mb-6 text-lg lg:text-xl text-[#cad3f5]">
             Well, hello there! Welcome to my portfolio! I&apos;m a front-end
-            developer that codes in bursts of energy. I{" "}
+            developer that codes in bursts of energy. I
             <span style={{ color: "#a6da95" }}> design</span>,
             <span style={{ color: "#7dc4e4" }}> develop</span>,
             <span style={{ color: "#f5bde6" }}> sing</span>,
@@ -23,12 +22,19 @@ const HeroSection = () => {
             developing great user-friendly applications.
           </p>
           <div>
-            <Link className="text-[#7dc4e4] px-6 py-3 rounded-full mr-4 bg-[#363a4f] hover:bg-[#494d64]" href="/contact">
-            Contact Me
+            <Link
+              className="text-[#7dc4e4] px-6 py-3 rounded-full mr-4 bg-[#363a4f] hover:bg-[#494d64]"
+              href="#contact"
+            >
+              Contact Me
             </Link>
-            <button className="text-[#7dc4e4] px-6 py-3 rounded-full my-2 bg-[#363a4f] hover:bg-[#494d64]">
+            <a
+              className="text-[#7dc4e4] px-6 py-3 rounded-full my-2 bg-[#363a4f] hover:bg-[#494d64]"
+              href="/CV/CV.pdf"
+              download="Gwy-CV.pdf"
+            >
               Download CV
-            </button>
+            </a>
           </div>
         </div>
 
