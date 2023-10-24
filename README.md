@@ -13,7 +13,7 @@ This is a portfolio webpage that I have developed with Next.js, TailwindCSS, and
 
 ## Deployed
 You can see the deployed link here: https://sukiluna.me/ ! 
-![Screenshot of webpage](public\images\image.png)
+![Screenshot of webpage](image.png)
 
 ## Features
 - A dynamic website developed with Next.js, styled with TailwindCSS, and animated with Framer Motion.
