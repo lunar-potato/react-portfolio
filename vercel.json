@@ -1,0 +1,8 @@
+{
+    "functions": {
+        "app/api/send/route.js": {
+            "memory": 256,
+            "maxDuration": 15
+        }
+    }
+}
