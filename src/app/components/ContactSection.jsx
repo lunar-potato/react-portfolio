@@ -109,7 +109,7 @@ const ContactSection = () => {
                 name="message"
                 id="message"
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#b8c0e0] text-[#a5adcb] text-sm rounded-lg block w-full p-2.5"
-                placeholder="Let's connect!"
+                placeholder="Let's chat!"
               />
             </div>
             <button
