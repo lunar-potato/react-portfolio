@@ -28,13 +28,6 @@ const HeroSection = () => {
             >
               Contact Me
             </Link>
-            <a
-              className="text-[#7dc4e4] px-6 py-3 rounded-full my-2 bg-[#363a4f] hover:bg-[#494d64]"
-              href="/CV/CV.pdf"
-              download="Gwy-CV.pdf"
-            >
-              Download CV
-            </a>
           </div>
         </div>
 
